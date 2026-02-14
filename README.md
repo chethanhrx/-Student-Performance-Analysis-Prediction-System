@@ -127,6 +127,8 @@ cd student-performance-analysis
 - Run the training script to generate `student_score_model.pkl`:
   ```bash
   python train_model.py
+  # or
+  python flask_app/train_model.py
   ```
   - This fetches data from your MySQL database and saves the model in `flask_app/`
 
