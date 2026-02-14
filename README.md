@@ -12,7 +12,7 @@ A full-stack project for analyzing and predicting student academic performance u
 - [Machine Learning Model](#machine-learning-model)
 - [Web Application (Flask)](#web-application-flask)
 - [Setup Instructions](#setup-instructions)
-- [Screenshots](#screenshots)
+- [Screenshots & Demo](#screenshots--demo)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -150,8 +150,13 @@ cd student-performance-analysis
 
 ---
 
-## Screenshots
-> Add screenshots of the notebook analysis, graphs, and web app UI here for best presentation.
+## Screenshots & Demo
+
+Below is a demo image of the running web application:
+
+![Demo Screenshot](images/image.png)
+
+> Add more screenshots of the notebook analysis, graphs, and web app UI for best presentation.
 
 ---
 
