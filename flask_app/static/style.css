@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; }
+.container { max-width: 400px; margin: 60px auto; background: #fff; padding: 30px 40px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+h2 { text-align: center; color: #333; }
+form { display: flex; flex-direction: column; gap: 15px; }
+input, button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+button { background: #007bff; color: #fff; border: none; cursor: pointer; transition: background 0.2s; }
+button:hover { background: #0056b3; }
+#result { margin-top: 20px; text-align: center; font-size: 1.2em; color: #007bff; }
