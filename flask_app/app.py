@@ -5,7 +5,9 @@ import numpy as np
 app = Flask(__name__)
 
 # Load trained model
-model = pickle.load(open('student_score_model.pkl', 'rb'))
+import os
+model_path = os.path.join(os.path.dirname(__file__), 'student_score_model.pkl')
+model = pickle.load(open(model_path, 'rb'))
 
 @app.route('/')
 def home():
